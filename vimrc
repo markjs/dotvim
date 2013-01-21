@@ -8,6 +8,8 @@ set hlsearch
 set ignorecase
 set smartcase
 
+colorscheme slate
+
 " Tab completion in insert mode (adapted from :help ins-completion)
 function! CleverTab()
   let col = col('.') - 1
