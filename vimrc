@@ -1,5 +1,6 @@
 execute pathogen#infect()
 set nu
+set rnu
 set nowrap
 set tabstop=2 shiftwidth=2
 set expandtab
