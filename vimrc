@@ -35,6 +35,10 @@ function ToggleWrap()
     silent! iunmap <buffer> <Down>
     silent! iunmap <buffer> <Home>
     silent! iunmap <buffer> <End>
+    noremap  <buffer> <silent> k k
+    noremap  <buffer> <silent> j j
+    noremap  <buffer> <silent> 0 0
+    noremap  <buffer> <silent> $ $
   else
     echo "Wrap ON"
     setlocal wrap linebreak nolist
@@ -48,5 +52,9 @@ function ToggleWrap()
     inoremap <buffer> <silent> <Down> <C-o>gj
     inoremap <buffer> <silent> <Home> <C-o>g<Home>
     inoremap <buffer> <silent> <End>  <C-o>g<End>
+    noremap  <buffer> <silent> k gk
+    noremap  <buffer> <silent> j gj
+    noremap  <buffer> <silent> 0 g0
+    noremap  <buffer> <silent> $ g$
   endif
 endfunction
