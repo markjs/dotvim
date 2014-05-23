@@ -28,3 +28,6 @@
 [submodule "bundle/vim-markdown"]
 	path = bundle/vim-markdown
 	url = https://github.com/plasticboy/vim-markdown.git
+[submodule "bundle/splitjoin"]
+	path = bundle/splitjoin
+	url = git://github.com/AndrewRadev/splitjoin.vim.git
