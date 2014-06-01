@@ -58,3 +58,5 @@ function ToggleWrap()
     noremap  <buffer> <silent> $ g$
   endif
 endfunction
+
+autocmd FileType python setlocal shiftwidth=4 tabstop=4
