@@ -8,6 +8,8 @@ set hlsearch
 set ignorecase
 set smartcase
 
+let mapleader=','
+
 colorscheme slate
 
 " Tab completion in insert mode (adapted from :help ins-completion)
