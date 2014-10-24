@@ -12,6 +12,9 @@ let mapleader=','
 
 colorscheme slate
 
+" I don't like ex mode
+map Q <Nop>
+
 " RSpec.vim mappings
 map <Leader>t :call RunCurrentSpecFile()<CR>
 map <Leader>s :call RunNearestSpec()<CR>
