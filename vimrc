@@ -68,4 +68,8 @@ function ToggleWrap()
   endif
 endfunction
 
+let g:UltiSnipsExpandTrigger="<tab>"
+let g:UltiSnipsJumpForwardTrigger="<c-b>"
+let g:UltiSnipsJumpBackwardTrigger="<c-z>"
+
 autocmd FileType python setlocal shiftwidth=4 tabstop=4
