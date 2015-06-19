@@ -10,7 +10,7 @@ set smartcase
 
 let mapleader=','
 
-colorscheme slate
+colorscheme github
 
 " I don't like ex mode
 map Q <Nop>

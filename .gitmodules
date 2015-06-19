@@ -49,3 +49,9 @@
 [submodule "vim-snippets"]
 	path = vim-snippets
 	url = https://github.com/honza/vim-snippets.git
+[submodule "bundle/vim-github-colorscheme"]
+	path = bundle/vim-github-colorscheme
+	url = git@github.com:endel/vim-github-colorscheme
+[submodule "bundle/vim-tmux-navigator"]
+	path = bundle/vim-tmux-navigator
+	url = git@github.com:christoomey/vim-tmux-navigator
