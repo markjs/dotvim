@@ -20,7 +20,7 @@ map <Leader>t :call RunCurrentSpecFile()<CR>
 map <Leader>s :call RunNearestSpec()<CR>
 map <Leader>l :call RunLastSpec()<CR>
 map <Leader>a :call RunAllSpecs()<CR>
-let g:rspec_command = "!clear && echo 'bundle exec rspec {spec}' && bundle exec rspec {spec}"
+let g:rspec_command = "!clear && echo 'zeus test {spec}' && zeus test {spec}"
 let g:rspec_runner = "os_x_iterm"
 
 " Tab completion in insert mode (adapted from :help ins-completion)
