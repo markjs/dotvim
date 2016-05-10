@@ -12,6 +12,9 @@ let mapleader=','
 
 colorscheme github
 
+inoremap jk <Esc>
+inoremap kj <Esc>
+
 " I don't like ex mode
 map Q <Nop>
 
