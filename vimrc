@@ -1,4 +1,3 @@
-execute pathogen#infect()
 set nu
 set nowrap
 set tabstop=2 shiftwidth=2
