@@ -2,10 +2,13 @@ set nu
 set nowrap
 set tabstop=2 shiftwidth=2
 set expandtab
+set nocompatible
 
 set hlsearch
 set ignorecase
 set smartcase
+
+filetype off
 
 let mapleader=','
 
@@ -16,6 +19,23 @@ inoremap kj <Esc>
 
 " I don't like ex mode
 map Q <Nop>
+
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+Plugin 'ctrlpvim/ctrlp.vim'
+Plugin 'tpope/vim-commentary'
+Plugin 'thoughtbot/vim-rspec'
+Plugin 'vim-ruby/vim-ruby'
+Plugin 'christoomey/vim-tmux-navigator'
+Plugin 'tpope/vim-surround'
+Plugin 'tpope/vim-endwise'
+Plugin 'endel/vim-github-colorscheme'
+Plugin 'tpope/vim-rails'
+Plugin 'tpope/vim-sensible'
+Plugin 'tpope/vim-unimpaired'
+
+call vundle#end()
+filetype plugin indent on
 
 " RSpec.vim mappings
 map <Leader>t :call RunCurrentSpecFile()<CR>
