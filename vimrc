@@ -25,17 +25,6 @@ map <Leader>l :call RunLastSpec()<CR>
 map <Leader>a :call RunAllSpecs()<CR>
 let g:rspec_command = "Dispatch bundle exec rspec {spec}"
 
-" Tab completion in insert mode (adapted from :help ins-completion)
-function! CleverTab()
-  let col = col('.') - 1
-  if !col || getline('.')[col - 1] !~ '\k'
-    return "\<Tab>"
-  else
-    return "\<C-P>"
-  endif
-endfunction
-inoremap <Tab> <C-R>=CleverTab()<CR>
-
 noremap <silent> <Leader>w :call ToggleWrap()<CR>
 function ToggleWrap()
   if &wrap
@@ -73,10 +62,6 @@ function ToggleWrap()
     noremap  <buffer> <silent> $ g$
   endif
 endfunction
-
-let g:UltiSnipsExpandTrigger="<tab>"
-let g:UltiSnipsJumpForwardTrigger="<c-b>"
-let g:UltiSnipsJumpBackwardTrigger="<c-z>"
 
 let g:ctrlp_user_command = ['.git/', 'git --git-dir=%s/.git ls-files -oc --exclude-standard']
 
