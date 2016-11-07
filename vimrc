@@ -12,8 +12,6 @@ filetype off
 
 let mapleader=','
 
-colorscheme github
-
 inoremap jk <Esc>
 inoremap kj <Esc>
 
@@ -36,6 +34,8 @@ Plugin 'tpope/vim-unimpaired'
 
 call vundle#end()
 filetype plugin indent on
+
+colorscheme github
 
 " RSpec.vim mappings
 map <Leader>t :call RunCurrentSpecFile()<CR>
