@@ -31,6 +31,7 @@ Plugin 'endel/vim-github-colorscheme'
 Plugin 'tpope/vim-rails'
 Plugin 'tpope/vim-sensible'
 Plugin 'tpope/vim-unimpaired'
+Plugin 'tpope/vim-dispatch'
 
 call vundle#end()
 filetype plugin indent on
