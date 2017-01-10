@@ -33,6 +33,7 @@ Plugin 'tpope/vim-sensible'
 Plugin 'tpope/vim-unimpaired'
 Plugin 'tpope/vim-dispatch'
 Plugin 'artnez/vim-rename'
+Plugin 'tpope/vim-fugitive'
 
 call vundle#end()
 filetype plugin indent on
